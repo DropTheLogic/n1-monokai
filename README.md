@@ -1,7 +1,7 @@
 # N1 Monokai theme
 ### A Sublime Text inspired theme for[Nylas N1](https://www.nylas.com/n1).
 
-![Screenshot](n1-monokai-screenshot.jpeg?raw=true)
+![Screenshot](n1-monokai-screenshot.jpg?raw=true)
 
 # Installing
 1. Download [Nylas N1](https://www.nylas.com/n1).
