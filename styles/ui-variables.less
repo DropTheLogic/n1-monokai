@@ -1,0 +1,95 @@
+// Change these variables to modify your theme!
+
+//=============================== Components ===========================//
+
+@mono-blue: #66d9ef;
+@mono-orange: #fd9720;
+@mono-purple: #ae81ff;
+@mono-pink: #f92672;
+@mono-dark-grey: #272822;
+@mono-light-grey: #575757;
+
+//== Toolbar
+@toolbar-background-color: darken(white, 17.5%);
+
+//== Account Sidebar
+@panel-background-color:         #e6e6e6;
+@source-list-bg:                 @panel-background-color;
+@source-list-active-bg:          linear-gradient(#b3b3b3, #8a8a8a);
+@source-list-active-color:       white;
+
+//== Thread List (e.g, `.list-group-item`, `.list-item`)
+@list-bg:                   #49483e;
+@list-border:               #4d4d4d;
+@list-hover-bg:             @mono-light-grey;
+@list-focused-color:        white;
+@list-focused-bg:           mix(@mono-purple, @list-bg, 40%);
+@list-focused-border:       @list-focused-bg;
+@list-selected-color:       white;
+@list-selected-bg:          mix(@component-active-color, @list-bg, 70%);
+@list-selected-border:      mix(@component-active-color, @list-bg, 50%);
+
+//== Notifications
+@background-color-info: @mono-pink;
+@background-color-success: #009ec4;
+@background-color-warning: #ff4800;
+@background-color-error: #f15f4b;
+@background-color-pending: #b4babd;
+
+//== Menus
+@menu-item-color-hover: fade(@mono-pink, 10%);
+@menu-item-color-selected: @mono-pink;
+@menu-text-color-selected: @text-color-inverse;
+
+//== Sizes
+@disclosure-arrow-size: 12px;
+
+@input-font-size: 14px;
+@component-padding: 10px;
+@component-icon-padding: 5px;
+@component-icon-size: 16px;
+@component-line-height: 25px;
+@component-border-radius: 2px;
+
+
+//=============================== Colors ===============================//
+
+@accent-primary:      @mono-pink;
+@accent-primary-dark: @mono-purple;
+
+@background-primary:     @mono-dark-grey;
+@background-off-primary: #272822;
+@background-secondary:   #404040;
+@background-tertiary:    white;
+
+@color-info:    red;
+@color-success: #5CB346;
+@color-warning: #f0ad4e;
+@color-error:   #d9534f;
+@color-danger:  #d9534f;
+
+@component-active-color:        @mono-pink;
+@component-active-bg:           @mono-purple;
+
+@background-gradient: linear-gradient(to top, rgba(241,241,241,0.75) 0%,
+rgba(253,253,253,0.75) 100%);
+
+@border-color-primary: darken(@background-primary, 10%);
+@border-color-secondary: @mono-light-grey;
+@border-color-tertiary: darken(@background-tertiary, 10%);
+@border-color-divider: @border-color-secondary;
+
+//============================= Typography =============================//
+
+// ----- Colors -----
+@text-color:          @mono-dark-grey;
+@text-color-inverse:  white;
+
+@text-color-heading: #434648;
+
+@text-color-link:        @mono-purple;
+@text-color-link-hover:  @mono-pink;
+@text-color-link-active: @mono-blue;
+
+@text-color-subtle: @mono-light-grey;
+@text-color-very-subtle: @mono-light-grey;

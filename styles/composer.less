@@ -1,0 +1,20 @@
+.composer-inner-wrap {
+  background: white;
+  border-radius: 5px;
+  .participant-primary, .contenteditable {
+    color: white !important;
+  }
+}
+
+.composer-full-window {
+  .composer-inner-wrap {
+    background: @mono-dark-grey;
+    .collapsed-composer-participants, .collapsed-composer-participants .collapsed-contact, .composer-participant-field, .compose-subject-wrap input, .tokenizing-field .tokenizing-field-input input {
+      color: white;
+    }
+    .btn.btn-toolbar, .composer-action-bar-wrap .btn.btn-toolbar:not(.btn-emphasis) img.content-mask {
+      background: @mono-pink;
+      border: 0;
+    }
+  }
+}
