@@ -20,3 +20,26 @@
     color: white;
   }
 }
+
+.button-dropdown {
+  .primary-item, .secondary-picker, .only-item {
+    img.content-mask {
+      background: white;
+    }
+  }
+  .secondary-items .menu .item {
+    color: white;
+    &.selected {
+      color: @mono-pink;
+    }
+  }
+  img {
+    color: white;
+  }
+  &.btn-emphasis {
+    .primary-item, .secondary-picker {
+      background: @mono-pink;
+      border: none;
+    }
+  }
+}
